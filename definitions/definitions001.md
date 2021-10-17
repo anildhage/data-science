@@ -29,4 +29,4 @@ _____________________________
 the situation in which the variance of the dependent variable is same for all the data
 _____________________________
 ## intercept and coefficient 
-5th video
+[source](https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/regression-models/slope-and-intercept-of-the-regression-line/)
