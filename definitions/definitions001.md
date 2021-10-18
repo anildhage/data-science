@@ -30,3 +30,10 @@ the situation in which the variance of the dependent variable is same for all th
 _____________________________
 ## intercept and coefficient 
 [source](https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/regression-models/slope-and-intercept-of-the-regression-line/)
+
+regression.intercept_ = if it is a positive number, this much will increase if a one point increases in 'x' variable
+regression.coefficient_ = if it is a negative value, this much will decrease if the 'x' variable is 0.
+
+![y=mx+c](./images/y=mx+c.png)
+_____________________________
+
