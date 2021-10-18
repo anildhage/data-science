@@ -7,3 +7,9 @@ My notes, works, projects, etc.
 
 [air quality prediction](https://github.com/anildhage/Air-Quality-Data-Science)
 
+
+## Folders
+
+1. definitions - notes, concepts and learnings 
+2. images - sources used for understanding
+3. projects - All projects that I worked on
