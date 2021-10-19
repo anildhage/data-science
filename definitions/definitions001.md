@@ -1,3 +1,5 @@
+# My notes
+
 ## Data science life cycle: 
 
 formulate question
@@ -36,4 +38,23 @@ regression.coefficient_ = if it is a negative value, this much will decrease if 
 
 ![y=mx+c](../images/y=mx+c.png)
 _____________________________
+## R2 (rsquare)
+this measures the relationship between the model and the dependent variable on a scale of 0-100%.
+_____________________________
+## algorithm
+this is a ML process does. 
+![y=mx+c](../images/algorithm.png)
+_____________________________
+## RSS (residual sum of squares)
+The lower the number the better the line and the estimates for this coefficients. 
+_____________________________
+## Gradient Descent
+This algorithm is used in order to draw a regression line(predicted values) using the minimum error( slope and intercept). An iterative model
+is built until the rate of error is the least. (This topic needs to revisited often)
+_____________________________
+## 
+
+
+
+
 
