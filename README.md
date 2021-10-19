@@ -18,3 +18,6 @@ My notes, works, projects, etc.
 ## learning objectives
 1. Adept in Data Science
 2. Building projects, get practical exposure along with theorotical knowledge
+
+## sources
+[medium](https://medium.com/projectpro/20-machine-learning-projects-that-will-get-you-hired-in-2021-a89473f2d2c7)

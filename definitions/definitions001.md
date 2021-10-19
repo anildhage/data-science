@@ -51,8 +51,16 @@ _____________________________
 ## Gradient Descent
 This algorithm is used in order to draw a regression line(predicted values) using the minimum error( slope and intercept). An iterative model
 is built until the rate of error is the least. (This topic needs to revisited often)
+[source](https://medium.com/code-heroku/gradient-descent-for-machine-learning-3d871fa48b4c)
+_____________________________
+## How to convert categorical data to numerical?
+Integer(label) encoding and One hot encoding
+Label encoding is done on the discrete values, converted to numbers
+In One hot encoding, a variable is removed and added as a new binary variable for each variable that is removed
 _____________________________
 ## 
+
+
 
 
 
