@@ -58,10 +58,36 @@ Integer(label) encoding and One hot encoding
 Label encoding is done on the discrete values, converted to numbers
 In One hot encoding, a variable is removed and added as a new binary variable for each variable that is removed
 _____________________________
+## Sampling types
+1. SRS - simple random sampling
+2. Systematic Sampling - leaves bias
+3. stratified sampling = Group same types of data, example colour, then apply SRS on each group
+4. reservoir sampling = [link](https://www.youtube.com/watch?v=A1iwzSew5QY) a sample from stream on n items, where the length of n is unknown
+5. resampling method = for imbalanced datasets. having The majority (negative) class and the minority (positive) class
+_____________________________
+## test and validation datasets
+The concept of Training/Cross-Validation/Test Data Sets is as simple as this. When you have a large data set, it's recommended to split it into 3 parts:
+
+### Training set (60% of the original data set): 
+This is used to build up our prediction algorithm. Our algorithm tries to tune itself to the quirks of the training data sets. In this phase we usually create multiple algorithms in order to compare their performances during the Cross-Validation Phase.
+### Cross-Validation set (20% of the original data set): 
+This data set is used to compare the performances of the prediction algorithms that were created based on the training set. We choose the algorithm that has the best performance.
+### Test set (20% of the original data set): 
+Now we have chosen our preferred prediction algorithm but we don't know yet how it's going to perform on completely unseen real-world data. So, we apply our chosen prediction algorithm on our test set in order to see how it's going to perform so we can have an idea about our algorithm's performance on unseen data.
+
+### Notes
+1. It's very important to keep in mind that skipping the test phase is not recommended, because the algorithm that performed well during the cross-validation phase doesn't really mean that it's truly the best one, because the algorithms are compared based on the cross-validation set and its quirks and noises...
+2. During the Test Phase, the purpose is to see how our final model is going to deal in the wild, so in case its performance is very poor we should repeat the whole process starting from the Training Phase.
+_____________________________
+## Machine Learning Loop
+1. train a model
+2. assess performance on validation set → if satisfactory, go to step 5
+3. change model
+4. go to step 1
+5. assess performance on test set
+6. Present model with test accuracy found in step 5
+_____________________________
 ## 
-
-
-
 
 
 
