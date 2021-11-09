@@ -7,9 +7,9 @@ My complete Data Science notes, projects, theoritcal and practical applications.
 3. [projects](https://github.com/anildhage/data-science/tree/main/projects) - All projects that I worked on
 
 ## learning objectives
-1. Data engineering, Data Analysis, Machine Learning, Python for Data Science 
+1. Data Analysis, Machine Learning, Python for Data Science 
 2. Building projects, get practical exposure along with theorotical knowledge
 
-<!-- ## resources
+## resources
 1. [ML-projects](https://medium.com/projectpro/20-machine-learning-projects-that-will-get-you-hired-in-2021-a89473f2d2c7)
- -->
+2. Kaggle users and datasets
