@@ -87,8 +87,13 @@ _____________________________
 5. assess performance on test set
 6. Present model with test accuracy found in step 5
 _____________________________
+## Gradient Boosting 
+Gradient boosting machines build sequential decision trees. Each tree will be built based on the previous tree’s error. Finally, predictions will be made by the sum of all of those trees.
+_____________________________
+## all about LightGBM vs XGBoost
+[link](https://sefiks.com/2018/10/13/a-gentle-introduction-to-lightgbm-for-applied-machine-learning/)
+_____________________________
 ## 
-
 
 
 
